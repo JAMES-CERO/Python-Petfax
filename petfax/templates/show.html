@@ -7,13 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome to PetFaxfffdgfgfgd</h1>
-    <a href="/pets/new"><button> Add a Pet!</button></a>
-    {% for pet in pets %}
         <h2>{{pet.pet_name}}</h2>
-        <a href="/pets/show/{{ pet.pet_id }}">More info ...</a>
+        <h3> {{pet.pet_fact}}</h3>
         <img src="{{pet.pet_photo}}" alt="Photo of {{pet.pet_name}}" />
-    {% endfor %}
-
 </body>
 </html>
