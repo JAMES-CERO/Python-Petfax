@@ -10,6 +10,6 @@ def index():
     
     return render_template('facts/index.html')
 
-@bp.route('facts/new')
+@bp.route('/new')
 def new(): 
     return render_template('facts/new.html')

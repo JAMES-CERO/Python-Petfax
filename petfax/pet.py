@@ -10,9 +10,9 @@ print(pets)
 def index():
     return render_template('pets/index.html', pets=pets)
 
-@bp.route('/show/<int:pet_id>')
-def show(pet_id): 
-    pet = pets[pet_id - 1]
+@bp.route('/show/<int:id>')
+def show(id): 
+    pet = pets[id - 1]
     return render_template('pets/show.html', pet=pet)
 
 
