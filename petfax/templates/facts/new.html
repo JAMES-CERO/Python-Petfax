@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Pet!!</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+    <div class="container">
+        <H1> Add a new Friend!</H1>
+        <div class="callout">
+            We are exciting that you can be part of our group!
+        </div>
+        <div class="facts-container">
+            <form action="/facts" method="POST">
+                <label for="name">
+                    <h2>Name</h2>
+                </label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="photo_url">
+                    <h2>Photo URL</h2>
+                </label>
+                <input type="text" name="photo_url" id="photo_url" required>
+
+                <label for="fun_fact">
+                    <h2>Fun Fact</h2>
+                </label>
+                <textarea type="text" name="fun_fact" id="fun_fact" rows="2" ,
+                    cols="25"> Loves to be under the sunlight</textarea>
+
+                <input type="submit" Unete!>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
