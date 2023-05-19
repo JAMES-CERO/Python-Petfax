@@ -5,9 +5,9 @@
     --accent-font: 'Abel', verdana; 
     --body-font: 'ABeeZee', helvetica;
     /* colors */ 
-    --light-accent: #F5F3EB; 
-    --main-accent: #7FA4AD;
-    --second-accent: #DE9D49;
+    --light-accent: #ffcdb2; 
+    --main-accent: #b5838d;
+    --second-accent: #6d6875;
 }
 
 /* GENERAL */
@@ -20,7 +20,7 @@ body {
     margin: 2em auto;
     padding: 1em 3em 3em 3em;
     border-radius: 1em;
-    background: white;
+    background: #f7ede2;
     box-shadow: 2px 2px #ddd;
 }
 h1 {
