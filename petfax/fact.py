@@ -16,8 +16,10 @@ def index():
         models.db.session.commit()
 
         return redirect('/facts')
+    
+    results = models.Fact.query.all()
+    return render_template('facts/index.html', facts = results)
 
-    return render_template('facts/index.html')
 
 @bp.route('/new')
 def new(): 
